@@ -61,7 +61,6 @@ const displayAlert = function (message) {
     `;
   document.querySelector("body").insertAdjacentHTML("afterend", markup);
 
-  // Remove the alert after 3 seconds
   setTimeout(() => {
     document.querySelector(".alert").remove();
   }, 5000);
